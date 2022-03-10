@@ -97,6 +97,3 @@ if __name__ == '__main__':
     max_accuracy = max(list_value)
     max_accuracy_k = list_value.index(max(list_value))+1
     print('the maximum accuracy rate is %s, and the number of K is %s'%(max_accuracy,max_accuracy_k))
-    #%%
-    index_max = Neighbor(distance,max_accuracy_k)
-    dict_label = Get_K_label(train_data,index_max,target_columns)
