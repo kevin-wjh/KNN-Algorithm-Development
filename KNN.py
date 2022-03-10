@@ -1,9 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Sat Oct 10 13:31:25 2020
-
-@author: kevinwang
-"""
 #%%1.Calculate the distance
 #Calculate the Euclidean distance between all test samples and training samples（201*490）(dataframe/list/dict)
 import pandas as pd
